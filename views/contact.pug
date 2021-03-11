@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts
+  script(src='/script.js')
+
+block style
+    style
+      include style.css
+      include styleContact.css
+block content
+    h1  Fill this form ASAP & Join with Us
+    div.container
+        form(action="/contact",method="post")
+            input(type="text",class="ad",name="name",placeholder="Enter your name")
+            input(type="number",class="ad",name="age",placeholder="Enter your age")
+            input(type="text",class="ad",name="gender",placeholder="Enter your gender(Male/Female/Others)")
+            input(type="email",class="ad",name="email",placeholder="Enter email address")
+            input(type="number",class="ad",name="phone",placeholder="Enter mobile number")
+            textarea(name="address",class="ad",cols="30" rows="10",placeholder="Enter your address")
+            textarea(name="more",class="ad",cols="30",rows="10",placeholder="More about you")
+            button(class="btn")
+             | Submit  
+    

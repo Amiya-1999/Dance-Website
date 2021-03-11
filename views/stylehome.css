@@ -1,0 +1,98 @@
+#navbar li a:hover , #ac1{
+    opacity: 0.4;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+#introsection{
+    background: center / cover no-repeat url("/static/pexels-yogendra-singh-1701195.jpg");
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    height: 600px;
+  }
+  #introsection h1{
+    margin-left: 200px;
+    margin-top: 350px;
+    font-family: fantasy;
+    color: red;
+  }
+  #introsection h5{
+    margin-left: 270px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
+    font-family: 'Dancing Script';
+  }
+  #sponsorssection{
+    display: flex;
+    background-color: rgb(146, 223, 223);
+    
+  }
+  #sponsorssection #st{
+    width: auto;
+    height: 300px;
+    margin: 30px;
+    margin-top: 0px;
+  }
+  #sponsorssection #nd{
+    width: auto;
+    height: 250px;
+   margin-top: 79px;
+   margin-left: 40px;
+  }
+  #sponsorssection p{
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    
+  }
+  #th{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: rgb(66, 70, 252);
+  }
+  #fo{
+    margin-left: 150px;
+      margin-top: 30px;
+      color: rgb(9, 12, 177);
+  }
+  #fi{
+    margin-left: 290px;
+    margin-top: 30px;
+    color: rgb(5, 10, 82);
+  }
+  #sponsorssection div{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+  #oursection {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(146, 223, 223);
+  }
+  #sponsor{
+    font-family: 'Great Vibes', cursive;
+    font-size: 33px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-right: 200px;
+    color: red;
+  }
+  #sponsors{
+    height: 200px;
+    width: 84%;
+  }
+  .image{
+    height: 30%;
+    margin: 20px;
+  }
+  .sp{
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px;
+    color:darkred;
+    margin-top: 65px;
+  }

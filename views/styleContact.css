@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    margin: 15px 400px;
+    margin-top: 45px;
+    font-size: 45px;
+    color: whitesmoke;
+    font-family: serif;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: darkblue;
+}
+#navbar li a:hover , #ac5{
+    opacity: 0.4;
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+.container{
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 70%;
+    height: 900px;
+}
+.ad{
+    display: block;
+    text-align: center;
+    padding: 4px;
+    margin: 5px auto;
+    width: 50%;
+    font-size: 16px;
+    border-radius: 10px;
+}
+form::before{
+    content: "";
+    background: url('/static/contact.jpg') no-repeat center center;
+    height: 1225px;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
+.btn{
+    margin: 20px auto;
+    display: block;
+    padding: 5px 15px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+.gender{
+    display: inline-block;
+    margin: 6px;
+    margin-left: 220px;
+}
